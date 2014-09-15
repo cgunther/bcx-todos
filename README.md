@@ -1,7 +1,7 @@
 bcx-todos
 =========
 
-A simple, command line client for listing todos from Basecamp in chronological order across all your projects/todolists.
+A simple command line client for listing todos from Basecamp in chronological order across all your projects/todolists.
 
 Setup
 -----
