@@ -9,7 +9,7 @@ module Logan
   end
 end
 
-logan = Logan::Client.new(ENV.fetch('BASECAMP_PROJECT_ID'), { username: ENV.fetch('BASECAMP_USERNAME'), password: ENV.fetch('BASECAMP_PASSWORD') }, 'Chris Gunther (chris@room118solutions.com)')
+logan = Logan::Client.new(ENV.fetch('BASECAMP_PROJECT_ID'), { username: ENV.fetch('BASECAMP_USERNAME'), password: ENV.fetch('BASECAMP_PASSWORD') }, "bcx-todos (#{ENV.fetch('EMAIL')})")
 
 todos_with_due_dates = []
 projects = logan.projects
